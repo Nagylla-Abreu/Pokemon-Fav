@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 2rem;
+    align-items: center;
+}
+
+#divpai {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+body {
+    background-color: rgb(233, 233, 237);
+    font-family: "Cabin", sans-serif;
+}
+
+header {
+    padding: 2rem;
+    margin: 1rem;
+    background-color:rgb(126, 25, 20);
+    box-shadow: 5px 5px 5px rgb(183, 191, 209);
+    color: rgb(253, 253, 253);
+    text-align: center;
+    border-radius: 1rem;
+}
+
+h2 {
+    margin: auto;
+    color: rgb(254, 254, 254);
+}
+
+img {
+    margin: 10px;
+}
+
+.tipo {
+    margin: 5px;
+    padding: auto;
+}
+
+.nome {
+    margin: 10px;
+    text-align: center;
+}
+
+.pokebox {
+    background-color: aliceblue;
+    width: 230px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: column;
+}
+
+.esqueleto {
+    width: 250px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #esq01 {
+        background-color: rgb(101, 186, 199);
+    }
+
+    #esq02 {
+        background-color: rgb(226, 43, 76);
+    }
+
+    #esq03 {
+        background-color: rgb(255, 160, 214);
+    }
+
+.nomepoke {
+    width: 210px;
+    height: 50px;
+    margin: auto;
+    border: 10px;
+    align-items: center;
+}
+
+    #npoke1 {
+        background-color: rgb(17, 96, 133);
+    }
+
+    #npoke2 {
+        background-color: rgb(183, 34, 64);
+    }
+
+    #npoke3 {
+        background-color: rgb(237, 57, 189);
+    }
+
+.imgpoke {
+    background-color: aliceblue;
+    width: 190px;
+    height: 170px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.pokebox2 {
+    width: 210px;
+    height: 220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+    #pb1 {
+        background-color: rgb(17, 96, 133);
+    }
+
+    #pb2 {
+        background-color: rgb(183, 34, 64);
+    }
+
+    #pb3 {
+        background-color: rgb(237, 57, 189);
+    }
+
+.tipagem {
+    background-color: aliceblue;
+    width: 190px;
+    height: 30px;
+    margin: 5px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+}
